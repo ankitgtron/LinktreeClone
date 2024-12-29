@@ -1,53 +1,155 @@
-# Linktree Clone / PWA (linktree-clone)
+### **Project Name:** Linktree Clone Application
 
-### Learn how to build this!
+**Description:** A full-stack application built with Nuxt 3, Vue 3, Tailwind CSS, and Laravel that mimics the functionalities of Linktree. The application supports customizable links, user authentication, and responsive design. Additionally, it integrates Progressive Web App (PWA) features for mobile users.
 
-If you'd like a step by step guide on how to build this just **CLICK THE IMAGE BELOW**
+---
 
-[![GO TO JOHN WEEKS DEV TUTORIAL VIDEOS](https://user-images.githubusercontent.com/108229029/228964328-b0e75187-32de-4b29-8fd0-d1546237b1fd.png)](https://www.youtube.com/watch?v=NtsbjB8QD3Y)
+### **Mission and Objectives**
 
-Come and check out my YOUTUBE channel for lots more tutorials -> https://www.youtube.com/@johnweeksdev
+#### **Mission:**  
+To create a scalable and customizable Linktree-like platform for managing and sharing multiple links efficiently.
 
-**LIKE**, **SUBSCRIBE**, and **SMASH THE NOTIFICATION BELL**!!!
+#### **Objectives:**
+1. **User Management:**  
+   - Enable secure user authentication and profile management.  
+   - Allow users to customize their personal link pages.  
 
-## NOTE
+2. **Link Management:**  
+   - Add, edit, and remove links dynamically.  
+   - Provide themes and styles for better customization.  
 
-### For this Linktree Clone to work you'll need the API/Backend:
+3. **Progressive Web App (PWA):**  
+   - Offer a mobile-friendly version with offline access.  
 
-Linktree Clone API: https://github.com/John-Weeks-Dev/linktree-clone-api
+4. **Scalability and Deployment:**  
+   - Deploy the application to a scalable and reliable hosting platform.  
 
-## App Setup (localhost)
+---
 
-```
-git clone https://github.com/John-Weeks-Dev/linktree-clone.git
+### **Technology Stack**
 
-npm i
+#### **Frontend**
+1. **Nuxt 3**  
+   - **Why?:** Powerful Vue.js framework with server-side rendering.  
+   - **Use Case:** Handles routing, PWA integration, and page rendering.  
 
-npm run dev
-```
-Inside Plugins/axios.js make sure the baseUrl is the same as your API.
+2. **Tailwind CSS**  
+   - **Why?:** Simplifies styling with utility-first classes.  
+   - **Use Case:** Creates responsive and modern UI designs.  
 
-<img width="443" alt="Screenshot 2023-03-15 at 00 14 21" src="https://user-images.githubusercontent.com/108229029/225085615-529afbca-8cb8-4ed4-bf5b-54ba6f827f36.png">
+#### **Backend**
+1. **Laravel**  
+   - **Why?:** Feature-rich PHP framework for backend development.  
+   - **Use Case:** Manages API endpoints, database interactions, and user authentication.  
 
-You should be good to go!
+2. **MySQL**  
+   - **Why?:** Reliable relational database for structured data storage.  
+   - **Use Case:** Stores user profiles, links, and theme configurations.  
 
-## Extra Info
+#### **PWA Integration**
+1. **Nuxt PWA**  
+   - **Why?:** Adds offline capabilities and app-like experience.  
+   - **Use Case:** Enables installation on mobile devices and offline browsing.
 
-In the tutorial I show you what you need to edit in your Nginx config file.
+#### **Deployment**
+1. **DigitalOcean**  
+   - **Why?:** Reliable and scalable cloud platform.  
+   - **Use Case:** Hosts the backend application and database.  
 
-This example is in Laravel Forge:
+2. **Netlify**  
+   - **Why?:** Optimized for frontend hosting.  
+   - **Use Case:** Deploys the Nuxt 3 application.  
 
-1. In the frontend open the "Edit Nginx Configuration"
+---
 
-<img width="600" src="https://user-images.githubusercontent.com/108229029/229151201-f9d1fe83-ca68-496e-9a1e-3ef031ce8271.png">
-<img width="400" src="https://user-images.githubusercontent.com/108229029/229151378-986b62d3-aab4-451d-8c65-029a3f2ec8a7.png">
+### **Workflow Overview**
 
-2. Update the location section to this.
-<img width="400" src="https://user-images.githubusercontent.com/108229029/229151891-46be485f-57e7-4bb9-9bac-6a1686e2c653.png">
-<img width="600" src="https://user-images.githubusercontent.com/108229029/229152382-358daed2-6c7f-4cbb-b367-c17351a37b2d.png">
+The application workflow involves users registering and logging in to create their personalized link pages. They can add, edit, and delete links, customize themes, and view analytics for link clicks. The PWA feature allows mobile users to install and access the app offline.
 
-# Application Images
+---
 
+### **FlowChart**
+![image](https://github.com/user-attachments/assets/10fef913-ca64-42c0-be1a-de10afc24896)
+
+
+---
+
+### **Project Structure for Feature Implementation**
+
+This project is structured to ensure a systematic and incremental development process. Each week builds upon the previous deliverables, enabling a smooth transition from basic to advanced functionalities.
+
+**NOTE:** Participants are encouraged to customize the design and functionality to make the application unique.
+
+---
+
+### **Week-by-Week Learning Plan**
+
+#### **Week 1: Project Setup and UI Design**
+- **Goal:** Set up the foundational structure and design the application UI.  
+
+- **Tasks:**  
+  1. Initialize a Nuxt 3 project.  
+     - **Reading:** [Nuxt 3 Documentation](https://nuxt.com/docs/getting-started/introduction)  
+     - **Video:** [Nuxt 3 Setup Guide](https://www.youtube.com/watch?v=NtsbjB8QD3Y)  
+  2. Configure Tailwind CSS for styling.  
+     - **Reading:** [Tailwind CSS Docs](https://tailwindcss.com/docs/installation)  
+     - **Video:** [Tailwind CSS Tutorial](https://www.youtube.com/watch?v=UBOj6rqRUME)  
+
+- **Deliverables:**  
+  - Basic project structure with a responsive homepage.
+
+---
+
+#### **Week 2: Backend and API Integration**
+- **Goal:** Set up the Laravel backend and integrate APIs.  
+
+- **Tasks:**  
+  1. Create Laravel project and configure database.  
+     - **Reading:** [Laravel Installation Guide](https://laravel.com/docs/10.x/installation)  
+     - **Video:** [Laravel Basics Tutorial](https://www.youtube.com/watch?v=MFh0Fd7BsjE)  
+  2. Build API endpoints for user and link management.  
+     - **Reading:** [Laravel API Documentation](https://laravel.com/docs/10.x/http-client)  
+     - **Video:** [Laravel API Development](https://www.youtube.com/watch?v=LFzWT8UttqQ)  
+
+- **Deliverables:**  
+  - Functional backend with user and link APIs.
+
+---
+
+#### **Week 3: User Authentication and Link Management**
+- **Goal:** Implement secure user authentication and dynamic link management.  
+
+- **Tasks:**  
+  1. Add authentication with Laravel Sanctum.  
+     - **Reading:** [Laravel Sanctum Docs](https://laravel.com/docs/10.x/sanctum)  
+     - **Video:** [Laravel Authentication](https://www.youtube.com/watch?v=MT-GJQIY3EU)  
+  2. Develop frontend components for link management.  
+     - **Reading:** [Vue.js Components](https://vuejs.org/guide/essentials/component-basics.html)  
+     - **Video:** [Vue Components Tutorial](https://www.youtube.com/watch?v=Wy9q22isx3U)  
+
+- **Deliverables:**  
+  - Secure login and registration system.  
+  - Dynamic link addition and deletion.
+
+---
+
+#### **Week 4: PWA Integration and Theme Customization**
+- **Goal:** Enhance the application with PWA features and customization options.  
+
+- **Tasks:**  
+  1. Configure Nuxt PWA module.  
+     - **Reading:** [Nuxt PWA Docs](https://pwa.nuxtjs.org/)  
+     - **Video:** [Nuxt PWA Guide](https://www.youtube.com/watch?v=5qap5aO4i9A)  
+  2. Develop themes and styling options for user pages.  
+     - **Reading:** [Tailwind Customization](https://tailwindcss.com/docs/customizing-spacing)  
+     - **Video:** [Tailwind Advanced Styling](https://www.youtube.com/watch?v=Ifnp3d7eomA)  
+
+- **Deliverables:**  
+  - Functional PWA.  
+  - Theme customization options.
+
+---
+### Screenshots
 <img width="1439" src="https://user-images.githubusercontent.com/108229029/228939676-4f229e2a-96b7-4bfd-9926-91c203e1448e.png">
 <img width="1439" src="https://user-images.githubusercontent.com/108229029/228939788-e2064606-4abc-478f-b6b0-8bb80ef29b86.png">
 <img width="1439" src="https://user-images.githubusercontent.com/108229029/228939898-46b3d07e-a621-4969-ac84-d52f7a28150c.png">
@@ -104,4 +206,39 @@ This example is in Laravel Forge:
   <img width="333" src="https://user-images.githubusercontent.com/108229029/228943520-8f10ffa2-b936-4383-863a-50262984712f.png">
   <img width="333" src="https://user-images.githubusercontent.com/108229029/228943657-698c06c8-ab4b-41ec-8585-de27f1e63d78.png">
 </div>
+
+
+---
+
+#### **Week 5: Deployment and Testing**
+- **Goal:** Deploy the application and ensure functionality across devices.  
+
+- **Tasks:**  
+  1. Deploy the backend to DigitalOcean.  
+     - **Reading:** [DigitalOcean Deployment Guide](https://www.digitalocean.com/docs/)  
+     - **Video:** [Laravel Deployment Tutorial](https://www.youtube.com/watch?v=WlvtG0q5s7w)  
+  2. Deploy the frontend to Netlify or Vercel.  
+     - **Reading:** [Netlify Deployment Docs](https://docs.netlify.com/)  
+     - **Video:** [Deploying Nuxt Apps](https://www.youtube.com/watch?v=N5wl5wY1_9E)  
+
+- **Deliverables:**  
+  - Fully deployed and functional Linktree Clone.
+
+---
+
+### **Screenshots**
+1. Linktree homepage with user links.  
+2. User dashboard for link management.  
+3. PWA installation prompt.  
+
+---
+
+### **References**
+1. [Nuxt 3 Documentation](https://nuxt.com/docs/getting-started/introduction)  
+2. [Laravel Documentation](https://laravel.com/docs/10.x/installation)  
+3. [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation)  
+4. [Nuxt PWA Guide](https://pwa.nuxtjs.org/)  
+5. [Video Tutorial](https://www.youtube.com/watch?v=NtsbjB8QD3Y&list=PL3pX4NAc7vJvBhW5bcngX011BsaFpD-Yo&index=4)  
+
+
 

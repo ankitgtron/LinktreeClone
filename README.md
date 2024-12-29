@@ -90,7 +90,7 @@ This project is structured to ensure a systematic and incremental development pr
 - **Tasks:**  
   1. Initialize a Nuxt 3 project.  
      - **Reading:** [Nuxt 3 Documentation](https://nuxt.com/docs/getting-started/introduction)  
-     - **Video:** [Nuxt 3 Setup Guide](https://www.youtube.com/watch?v=NtsbjB8QD3Y)  
+     - **Video:** [Nuxt 3 Setup Guide](https://www.youtube.com/watch?v=fTPCKnZZ2dk)  
   2. Configure Tailwind CSS for styling.  
      - **Reading:** [Tailwind CSS Docs](https://tailwindcss.com/docs/installation)  
      - **Video:** [Tailwind CSS Tutorial](https://www.youtube.com/watch?v=UBOj6rqRUME)  
@@ -122,7 +122,7 @@ This project is structured to ensure a systematic and incremental development pr
 - **Tasks:**  
   1. Add authentication with Laravel Sanctum.  
      - **Reading:** [Laravel Sanctum Docs](https://laravel.com/docs/10.x/sanctum)  
-     - **Video:** [Laravel Authentication](https://www.youtube.com/watch?v=MT-GJQIY3EU)  
+     - **Video:** [Laravel Authentication](https://www.youtube.com/watch?v=KEofz6sSBmk&list=PL8p2I9GklV452EoqYyx9o3Nk17V61o4JX)  
   2. Develop frontend components for link management.  
      - **Reading:** [Vue.js Components](https://vuejs.org/guide/essentials/component-basics.html)  
      - **Video:** [Vue Components Tutorial](https://www.youtube.com/watch?v=Wy9q22isx3U)  
@@ -139,17 +139,37 @@ This project is structured to ensure a systematic and incremental development pr
 - **Tasks:**  
   1. Configure Nuxt PWA module.  
      - **Reading:** [Nuxt PWA Docs](https://pwa.nuxtjs.org/)  
-     - **Video:** [Nuxt PWA Guide](https://www.youtube.com/watch?v=5qap5aO4i9A)  
+     - **Video:** [Nuxt PWA Guide](https://www.youtube.com/watch?v=JvDq-vucg6E)  
   2. Develop themes and styling options for user pages.  
      - **Reading:** [Tailwind Customization](https://tailwindcss.com/docs/customizing-spacing)  
-     - **Video:** [Tailwind Advanced Styling](https://www.youtube.com/watch?v=Ifnp3d7eomA)  
+     - **Video:** [Tailwind Advanced Styling](https://www.youtube.com/watch?v=ft30zcMlFao)  
 
 - **Deliverables:**  
   - Functional PWA.  
   - Theme customization options.
 
 ---
-### Screenshots
+
+---
+
+#### **Week 5: Deployment and Testing**
+- **Goal:** Deploy the application and ensure functionality across devices.  
+
+- **Tasks:**  
+  1. Deploy the backend to DigitalOcean.  
+     - **Reading:** [DigitalOcean Deployment Guide](https://www.digitalocean.com/docs/)  
+     - **Video:** [Laravel Deployment Tutorial](https://www.youtube.com/watch?v=9GCeaRPT9Bc&list=PL0zysOflRCembfeMvJEd0N1VCNR9dhNqH)  
+  2. Deploy the frontend to Netlify or Vercel.  
+     - **Reading:** [Netlify Deployment Docs](https://docs.netlify.com/)  
+     - **Video:** [Deploying Nuxt Apps](https://www.youtube.com/watch?v=qAcOhFdC0-k)  
+
+- **Deliverables:**  
+  - Fully deployed and functional Linktree Clone.
+
+---
+
+### **Screenshots**
+
 <img width="1439" src="https://user-images.githubusercontent.com/108229029/228939676-4f229e2a-96b7-4bfd-9926-91c203e1448e.png">
 <img width="1439" src="https://user-images.githubusercontent.com/108229029/228939788-e2064606-4abc-478f-b6b0-8bb80ef29b86.png">
 <img width="1439" src="https://user-images.githubusercontent.com/108229029/228939898-46b3d07e-a621-4969-ac84-d52f7a28150c.png">
@@ -207,29 +227,6 @@ This project is structured to ensure a systematic and incremental development pr
   <img width="333" src="https://user-images.githubusercontent.com/108229029/228943657-698c06c8-ab4b-41ec-8585-de27f1e63d78.png">
 </div>
 
-
----
-
-#### **Week 5: Deployment and Testing**
-- **Goal:** Deploy the application and ensure functionality across devices.  
-
-- **Tasks:**  
-  1. Deploy the backend to DigitalOcean.  
-     - **Reading:** [DigitalOcean Deployment Guide](https://www.digitalocean.com/docs/)  
-     - **Video:** [Laravel Deployment Tutorial](https://www.youtube.com/watch?v=WlvtG0q5s7w)  
-  2. Deploy the frontend to Netlify or Vercel.  
-     - **Reading:** [Netlify Deployment Docs](https://docs.netlify.com/)  
-     - **Video:** [Deploying Nuxt Apps](https://www.youtube.com/watch?v=N5wl5wY1_9E)  
-
-- **Deliverables:**  
-  - Fully deployed and functional Linktree Clone.
-
----
-
-### **Screenshots**
-1. Linktree homepage with user links.  
-2. User dashboard for link management.  
-3. PWA installation prompt.  
 
 ---
 
